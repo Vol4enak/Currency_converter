@@ -1,0 +1,16 @@
+.box {
+  padding: 30px;
+  width: 1600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 1px solid red;
+  background-color: rgba(0, 0, 0, 0.167);
+  margin-left: auto;
+  margin-right: auto;
+  gap: 30px;
+}
+.main-box {
+  display: flex;
+  gap: 10px;
+}
