@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { CurrencyData } from '../../../module/currency';
-import { CurrencyService } from '../../../services/currency.service';
+import { CurrencyData } from '../../module/currency';
+import { CurrencyService } from '../../services/currency.service';
 
 @Component({
   selector: 'converter-app',

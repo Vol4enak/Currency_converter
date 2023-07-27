@@ -1,0 +1,20 @@
+.glodal-error{
+    position: relative;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: black;
+}
+.error-btn{
+    
+    font-size: 24px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 0;
+    background-color: transparent;
+
+
+}

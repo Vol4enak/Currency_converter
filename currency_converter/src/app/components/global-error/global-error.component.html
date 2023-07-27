@@ -1,0 +1,5 @@
+<div *ngIf="errorService.error$ | async as error" class="glodal-error">{{error}}
+
+    <button class="error-btn" (click)="errorService.clear()">&times;</button>
+
+</div>
