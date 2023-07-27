@@ -21,14 +21,6 @@ export class HeaderComponent implements OnInit {
       this.currencyService.getValues("USD"),
       this.currencyService.getValues("EUR"),
     ]).subscribe(([data1, data2]: [CurrencyData, CurrencyData]) => {
-      console.log(
-        'Полученные данные из HTTP-запроса 1:',
-        data1.conversion_result
-      );
-      console.log(
-        'Полученные данные из HTTP-запроса 2:',
-        data2.conversion_result
-      );
       this.usdValue = Number(data1.conversion_rates.UAH.toFixed(2));
       this.eurValue = Number(data2.conversion_rates.UAH.toFixed(2));
     });

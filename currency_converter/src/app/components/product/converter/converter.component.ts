@@ -18,8 +18,8 @@ export class ConverterComponent {
 
   onValueChange(value: number | null, isFirstInput: boolean): void {
     if (value === null) {
-      this.value_1 = isFirstInput ? null : this.value_1;
-      this.value_2 = isFirstInput ? this.value_2 : null;
+      this.value_1 = null;
+      this.value_2 = null;
     } else {
       if (isFirstInput) {
         this.value_1 = value;
