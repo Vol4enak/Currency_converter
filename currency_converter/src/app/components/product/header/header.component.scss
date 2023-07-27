@@ -1,0 +1,20 @@
+.header {
+  margin-top: 200px;
+  margin: 0px 600px;
+  background-color: rgba(150, 137, 137, 0.337);
+  border: 0.1px solid black;
+}
+
+.header__list {
+  padding: 0;
+  margin-right: 20px;
+  margin: 10px 10px 20px 550px;
+  display: block;
+  list-style: none;
+  column-count: 2;
+
+  width: 80px;
+}
+.header-logo {
+  margin: 70px 0px 10px 170px;
+}

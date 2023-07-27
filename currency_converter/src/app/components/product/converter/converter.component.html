@@ -1,0 +1,27 @@
+<div class="input-box">
+
+    <div class="select-1">
+        <select class="selection" name="" id="countri1" [(ngModel)]="selectedFirstCurrency"
+            (ngModelChange)="onCurrencyChange($event,true)">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="UAH">UAH</option>
+        </select>
+        <input class="form-control" type="number" name="input-1" [(ngModel)]="value_1"
+            (ngModelChange)="onValueChange($event, true)" />
+
+    </div>
+
+    <div class="select-2">
+        <select class="selection" id="countri2" [(ngModel)]="selectedSecondCurrency"
+            (ngModelChange)="onCurrencyChange($event,false)">
+            <option value="USD">USD</option>
+            <option value="EUR">EUR</option>
+            <option value="UAH">UAH</option>
+        </select>
+        <input class="input" type="number" name="input-2" [(ngModel)]="value_2"
+            (ngModelChange)="onValueChange($event, false)">
+    </div>
+
+
+</div>
